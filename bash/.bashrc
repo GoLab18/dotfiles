@@ -28,3 +28,7 @@ fi
 if [ ! -f "$SSH_AUTH_SOCK" ]; then
     source $sshdir > /dev/null
 fi
+
+###-------- STARSHIP --------###
+
+eval "$(starship init bash)"
