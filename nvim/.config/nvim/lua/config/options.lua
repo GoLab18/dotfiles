@@ -5,3 +5,7 @@ vim.opt.expandtab = true
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
+
+vim.opt.smartindent = true
+
+vim.opt.wrap = false
