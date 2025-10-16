@@ -24,11 +24,13 @@ return {
         'gotmpl',
         'goctl',
         'gowork',
+        'templ',
         'java',
         'javadoc',
         'c',
         'cpp',
         'yaml',
+        'toml',
         'diff',
         'markdown',
       }
