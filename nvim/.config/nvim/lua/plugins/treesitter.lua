@@ -29,6 +29,8 @@ return {
         'c',
         'cpp',
         'yaml',
+        'diff',
+        'markdown',
       }
 
       require'nvim-treesitter'.install(langs)
