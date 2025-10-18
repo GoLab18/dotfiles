@@ -11,7 +11,7 @@ PS1='[\u@\h \W]\$ '
 
 ###-------- EXPORTS --------###
 
-export EDITOR="vim"
+export EDITOR="nvim"
 
 ###-------- SSH AGENT --------###
 
