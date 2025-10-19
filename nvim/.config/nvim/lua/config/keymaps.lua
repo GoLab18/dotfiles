@@ -13,6 +13,4 @@ vim.keymap.set({ "n", "v", "x" }, "<leader>d", '"+d<CR>')
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "Open file explorer" })
 vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>", { desc = "Open neotree filesystem" })
 
-vim.keymap.set("n", "<leader>cf", function()
-	require("conform").format()
-end, { desc = "Formats current file" })
+vim.keymap.set("n", "<leader>cf", function() require("conform").format() end, { desc = "Formats current file" })
