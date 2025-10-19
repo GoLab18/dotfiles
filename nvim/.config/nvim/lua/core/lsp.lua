@@ -1,6 +1,11 @@
 local lsps = {
     "lua_ls",
+    "pyright",
     "gopls",
+    "ts_ls",
+    "css",
+    "html",
+    "intelephense",
 }
 
 vim.lsp.enable(lsps)
