@@ -14,6 +14,7 @@ return {
             typescriptreact = { "eslint_d", "eslint", stop_after_first = true },
             html = { "htmlhint" },
             css = { "stylelint" },
+            php = { "phpstan", "php" },
         }
 
         local lint_augroup = vim.api.nvim_create_augroup("lint", { clear = true })
