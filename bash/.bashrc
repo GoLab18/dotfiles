@@ -13,6 +13,10 @@ PS1='[\u@\h \W]\$ '
 
 export EDITOR="nvim"
 
+###-------- ALIASES --------###
+
+alias la="ls -lAtri"
+
 ###-------- SSH AGENT --------###
 
 sshdir="$XDG_RUNTIME_DIR/ssh-agent.env"
