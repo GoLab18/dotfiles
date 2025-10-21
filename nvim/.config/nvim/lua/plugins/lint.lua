@@ -15,6 +15,8 @@ return {
             html = { "htmlhint" },
             css = { "stylelint" },
             php = { "phpstan", "php" },
+            cpp = { "clangtidy" },
+            cmake = { "cmake_lint" },
         }
 
         local lint_augroup = vim.api.nvim_create_augroup("lint", { clear = true })

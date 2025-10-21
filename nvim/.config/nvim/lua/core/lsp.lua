@@ -6,6 +6,8 @@ local lsps = {
     "css",
     "html",
     "intelephense",
+    "clangd",
+    "cmake",
 }
 
 vim.lsp.enable(lsps)
