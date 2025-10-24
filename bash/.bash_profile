@@ -7,6 +7,8 @@
 ###-------- EXPORTS --------###
 
 export EDITOR="nvim"
+export VISUAL="$EDITOR"
+export BROWSER="zen-browser"
 
 ###-------- SSH AGENT --------###
 
