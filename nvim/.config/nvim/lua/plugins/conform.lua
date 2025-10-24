@@ -14,6 +14,7 @@ return {
             php = { "php_cs_fixer" },
             cpp = { "clang-format" },
             cmake = { "cmake_format" },
+            java = { "google-java-format" },
         },
         format_on_save = {
             timeout_ms = 500,

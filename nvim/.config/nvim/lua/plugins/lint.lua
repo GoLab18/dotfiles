@@ -17,6 +17,7 @@ return {
             php = { "phpstan", "php" },
             cpp = { "clangtidy" },
             cmake = { "cmake_lint" },
+            java = { "checkstyle" },
         }
 
         local lint_augroup = vim.api.nvim_create_augroup("lint", { clear = true })
