@@ -13,7 +13,6 @@ return {
             typescript = { "eslint_d", "eslint", stop_after_first = true },
             typescriptreact = { "eslint_d", "eslint", stop_after_first = true },
             html = { "htmlhint" },
-            css = { "stylelint" },
             php = { "phpstan", "php" },
             cpp = { "clangtidy" },
             cmake = { "cmake_lint" },
