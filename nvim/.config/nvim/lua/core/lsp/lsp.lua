@@ -8,7 +8,6 @@ local lsps = {
     "intelephense",
     "clangd",
     "cmake",
-    "jdtls",
 }
 
 vim.lsp.enable(lsps)
