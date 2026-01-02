@@ -11,7 +11,7 @@ PS1='[\u@\h \W]\$ '
 
 ###-------- ALIASES --------###
 
-alias la="ls -lAtri"
+alias la="ls -lAtrih"
 
 ###-------- STARSHIP --------###
 
