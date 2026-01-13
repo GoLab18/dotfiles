@@ -8,6 +8,7 @@ local lsps = {
     "intelephense",
     "clangd",
     "cmake",
+    "kotlin_lsp",
 }
 
 vim.lsp.enable(lsps)

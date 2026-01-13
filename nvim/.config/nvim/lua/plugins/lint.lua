@@ -17,6 +17,7 @@ return {
             cpp = { "clangtidy" },
             cmake = { "cmake_lint" },
             java = { "checkstyle" },
+            kotlin = { "ktlint" },
         }
 
         local lint_augroup = vim.api.nvim_create_augroup("lint", { clear = true })
