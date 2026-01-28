@@ -16,3 +16,11 @@ alias la="ls -lAtrih"
 ###-------- STARSHIP --------###
 
 eval "$(starship init bash)"
+
+###-------- NVM --------###
+
+source /usr/share/nvm/init-nvm.sh
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
